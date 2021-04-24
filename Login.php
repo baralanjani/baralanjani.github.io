@@ -19,7 +19,6 @@ document.write("Your browser does not support this control."
 <title>login</title>
 </head>
 <body>
-<script>
 
 <hr>
 
@@ -44,7 +43,7 @@ Enter You First Name:
 
 
 // Create connection
-$conn = new mysqli('localhost', 'root', '','cla');
+$conn = new mysqli('baralanjani.github.io', 'root', '','cla');
 $dob = $_POST['dob'];
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
@@ -60,3 +59,4 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 ?>
       </body>
+      </html>
