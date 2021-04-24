@@ -44,7 +44,7 @@ Enter You First Name:
 
 
 // Create connection
-$conn = new mysqli('baralanjani.github.io', 'root', '','cla');
+$conn = new mysqli('localhost', 'root', '','cla');
 $dob = $_POST['dob'];
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
