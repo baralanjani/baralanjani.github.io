@@ -16,6 +16,15 @@ document.write("Your browser does not support this control."
 + "<br>The control defaults to a simple text box.");
 }
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CZWH0ZC15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2CZWH0ZC15');
+</script>
 <title>login</title>
 </head>
 <body>
